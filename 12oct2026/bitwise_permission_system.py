@@ -1,4 +1,5 @@
 read=1
 write=2
-exeacute+4
-permiss
+execute=4
+permiss=read|write|execute
+print("permissions=",permissions)
