@@ -1,6 +1,10 @@
 n=int(input())
-mid=n//
 for row in range(0,n):
     for col in range(0,n):
-        if row==mid
+        if row==0 or col==0 or row==n-1 or col==n-1:
+         print("*",end=" ")
+        else:
+         print(" ",end=" ")
+    print()        
+
    
