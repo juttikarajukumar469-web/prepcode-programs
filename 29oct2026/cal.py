@@ -1,9 +1,9 @@
-def calculatearea(length, width=None):
+def area(length, width=None):
     if width is None:
         width = length
-        area = length * breath
-    return area
-    rectangular_area = calculatearea(10, 5)
-    square_area = calculatearea(4)
-    print(f"area of rectangle:", {rectangular_area})
-    print(f"area of square:", {square_area})
+        area = length * width
+        return area
+rectangular_area = area(60, 9)
+square_area = area(9)
+print("area of rectagle:",rectangular_area)
+print("area of square:",square_area)
